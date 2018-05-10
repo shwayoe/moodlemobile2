@@ -3,7 +3,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.moodle.learn"
+        id        = "com.moodle.moodlemobile"
         versionCode = "3"
         version   = "1.2">
     <name>Learn Moodle</name>
@@ -135,7 +135,7 @@
     <gap:plugin name="cordova-plugin-zip" source="npm" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
+         <application android:debuggable="false" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
